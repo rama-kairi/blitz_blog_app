@@ -1,0 +1,52 @@
+.header {
+    background: dodgerblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    height: 5rem;
+
+    .logo {
+        font-size: 2rem;
+        color: whitesmoke;
+    }
+
+    .nav_links {
+        display: flex;
+        gap: 2rem;
+        color: whitesmoke;
+
+        .nav_link {
+            color: whitesmoke;
+            text-decoration: none;
+            font-size: 1.5rem;
+
+            &:hover {
+                color: black;
+                transform: scale(1.1);
+                transition: all ease-in-out 350ms;
+            }
+        }
+    }
+
+    .auth_links {
+
+        .links {
+            display: flex;
+            gap: 2rem;
+
+            .auth_link {
+                text-decoration: none;
+                color: blanchedalmond;
+                font-size: 1.2rem;
+
+                &:hover {
+                    color: white;
+                    transform: scale(1.1);
+                    transition: all ease-in-out 350ms;
+                }
+            }
+        }
+
+    }
+}

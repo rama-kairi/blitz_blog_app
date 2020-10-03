@@ -1,0 +1,35 @@
+.form_control {
+    width: 40%;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 3rem;
+}
+
+.title {
+    width: 100%;
+    border: 2px solid dodgerblue;
+    padding: 1rem 0.25rem;
+    font-size: 1rem;
+}
+
+.body {
+    width: 100%;
+    border: 2px solid dodgerblue;
+    padding: 1rem 0.25rem;
+    font-size: 1rem;
+    height: 4rem;
+    overflow-wrap: normal;
+}
+
+.submit {
+    width: 50%;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    background: dodgerblue;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+}
