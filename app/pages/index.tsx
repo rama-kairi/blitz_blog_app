@@ -8,7 +8,7 @@ const Home: BlitzPage = () => {
 
 
       <Link href="/posts">
-        <a style={{ fontSize: "4rem", textDecoration: "none" }}>Go to Blog page</a>
+        <a style={{ fontSize: "4rem", textDecoration: "none" }}>Go to blitz blog</a>
       </Link>
 
       <style jsx global>{`
