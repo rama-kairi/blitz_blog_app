@@ -1,8 +1,6 @@
 import React, { Suspense } from "react"
 import Layout from "app/layouts/Layout"
 import { Head, BlitzPage } from "blitz"
-import Footer from "app/posts/components/Footer"
-import Header from "app/posts/components/Header"
 import UpdatePostForm from "app/posts/components/UpdatePostForm"
 
 
@@ -14,7 +12,6 @@ const EditPostPage: BlitzPage = () => {
       </Head>
 
       <main>
-        <Header />
         <br />
         <br />
         <br />
@@ -25,7 +22,6 @@ const EditPostPage: BlitzPage = () => {
         <br />
         <br />
         <br />
-        <Footer />
       </main>
     </div>
   )

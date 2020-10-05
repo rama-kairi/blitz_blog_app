@@ -10,9 +10,6 @@ const LoginPage: BlitzPage = () => {
 
   return (
     <div>
-      <Suspense fallback={<div>Loading...</div>}>
-        <Header />
-      </Suspense>
       <br />
       <br />
       <br />
@@ -22,7 +19,6 @@ const LoginPage: BlitzPage = () => {
       <br />
       <br />
       <br />
-      <Footer />
 
       <style jsx>{`
       .loginS{

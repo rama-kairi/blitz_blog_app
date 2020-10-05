@@ -1,8 +1,6 @@
 import React, { Suspense } from "react"
 import Layout from "app/layouts/Layout"
-import { Head, BlitzPage, Link, useSession, useQuery } from "blitz"
-import Header from "app/posts/components/Header"
-import Footer from "app/posts/components/Footer"
+import { Head, BlitzPage, Link, useSession } from "blitz"
 import AuthorPostList from "../components/AuthorPostList"
 
 
@@ -18,9 +16,6 @@ const PostsPage: BlitzPage = () => {
             </Head>
 
             <main>
-                <Suspense fallback={<div>Loading...</div>}>
-                    <Header />
-                </Suspense>
                 <br />
                 <div className="welcome">
                     <Suspense fallback={<div>Loading...</div>}>
@@ -38,8 +33,6 @@ const PostsPage: BlitzPage = () => {
                 </Suspense>
                 <br />
                 <br />
-
-                <Footer />
             </main>
         </div >
     )
